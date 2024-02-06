@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FBLA Coding & Programming</title>
+
+   <style>
+      * {
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         box-sizing: border-box;
+         user-select: none;
+         font-weight: 500;
+         line-height: 1;
+         padding: 0;
+         margin: 0;
+
+         text-decoration: none;
+      }
+
+      /* ::-webkit-scrollbar {
+         display: none;
+      } */
+
+      *::placeholder {
+         color: #777;
+      }
+
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #236ade, #0a2f80); /* Gradient background */
+            color: #333;
+        }
+
+      .wrapper {
+         display: flex;
+      }
+
+      form {
+         background: linear-gradient(to top, #236ade, #0a2f80); /* Gradient background */
+      }
+
+      .left {
+         background-color: #eee;
+         flex-direction: column;
+         display: flex;
+         padding: 2rem;
+         height: 100vh;
+         width: 20%;
+         gap: 1rem;
+      }
+
+      .right {
+         flex-direction: column;
+         height: fit-content;
+         display: flex;
+         padding: 2rem;
+         height: 100vh;
+         width: 80%;
+         gap: 1rem;
+      }
+
+      .left__title {
+         font-size: 1.5rem;
+      }
+
+      .left__text {
+         all: unset;
+         background-color: white;
+         border-radius: .5rem;
+         padding: .5rem;
+         height: 1.5rem;
+      }
+
+      select {
+         background-color: white;
+         border-radius: .5rem;
+         padding: .5rem;
+         /* height: 1.5rem; */
+      }
+
+      .search__bar {
+         display: flex;
+         gap: .5rem;
+      }
+
+      .search {
+         all: unset;
+         background-color: #eee;
+         border-radius: .5rem;
+         padding: .5rem;
+         height: 1.5rem;
+         width: 25%;
+      }
+
+      .left__title{
+         color: white;
+      }
+
+      .left__button {
+         all: unset;
+         background-color: #f3ab19;
+         transition: .15s linear;
+         border-radius: .5rem;
+         text-align: center;
+         padding: .75rem;
+         color: black;
+      }
+
+      .left__button:hover {
+         background-color: #48d;
+      }
+
+      .table__wrapper {
+         overflow: auto;
+         height: 100%;
+      }
+
+      table {
+         border-collapse: collapse;
+         width: 100%;
+      }
+
+      tr:nth-child(even) {
+         background-color: #fff;
+         transition: .15s linear;
+      }
+
+      tr:nth-child(even):hover {
+         background-color: #ddd;
+      }
+
+      tr:nth-child(odd) {
+         background-color: #eee;
+         transition: .15s linear;
+      }
+
+      tr:nth-child(odd):hover {
+         background-color: #ddd;
+      }
+
+      th {
+         background-color: #f3ab19;
+         transition: .15s linear;
+         text-align: left;
+         position: sticky;
+         padding: .75rem;
+         color: black;
+         top: 0;
+      }
+
+      th:hover {
+         background-color: #48d;
+      }
+
+      td {
+         padding: .75rem;
+      }
+
+      .spread {
+         display: flex;
+         gap: .75rem;
+      }
+
+      .fit {
+         width: 173.13px;
+      }
+
+      .btn {
+         all: unset;
+         background-color: #f3ab19  ;
+         transition: .15s linear;
+         border-radius: .5rem;
+         padding: .5rem 1rem;
+         color: black;
+      }
+
+      .btn:hover {
+         background-color: #48d;
+      }
+
+      .counter {
+         position:fixed;
+         padding: 1rem;
+         right: 1rem;
+         top: 1rem;
+         background-color: #6af;
+         transition: .15s linear;
+         border-radius: 1rem;
+      }
+
+      .counter:hover {
+         background-color: #48d;
+      }
+
+   </style>
+</head>
+
+<body>
+   <div class="counter">
+      <span>Number of partners: </span>
+      <span class="count"></span>
+   </div>
+   <div class="wrapper">
+      <form class="left">
+         <span class="left__title">Add Partners</span>
+         <input type="text" placeholder="Name" class="left__text" id="name" required>
+         <!-- <input type="text" placeholder="Type" class="left__text" id="type" required> -->
+
+
+<select name="types" id="type">
+   <option value="Club">Club</option>
+   <option value="Company">Company</option>
+   <option value="Nonprofit">Nonprofit</option>
+</select>
+
+
+
+         <input type="text" placeholder="Resources" class="left__text" id="resources" required>
+         <input type="text" placeholder="Email" class="left__text" id="email" required>
+         <input type="text" placeholder="Mobile" class="left__text" id="mobile" required>
+         <input type="submit" value="Add Partner" onclick="addPartner()" class="left__button">
+      </form>
+      <div class="right">
+         <div class="search__bar">
+            <input type="text" placeholder="Search by name" onkeyup="searchName()" class="search" id="search__n">
+            <input type="text" placeholder="Search by type" onkeyup="searchType()" class="search" id="search__t">
+         </div>
+         <div class="table__wrapper">
+            <table id="partner__list"></table>
+         </div>
+      </div>
+   </div>
+
+   <script src="../helpers/partnersPreload.js"></script>
+</body>
+
+</html>
