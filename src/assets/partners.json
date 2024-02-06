@@ -1,0 +1,177 @@
+[
+  {
+    "name": "FBLA",
+    "type": "Club",
+    "resources": "Events",
+    "email": "example@gmail.com",
+    "mobile": "4049721361"
+  },
+  {
+    "name": "HOSA",
+    "type": "Club",
+    "resources": "Events",
+    "email": "example1@gmail.com",
+    "mobile": "7065677069"
+  },
+  {
+    "name": "Food4Lives",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example2@gmail.com",
+    "mobile": "4043842686"
+  },
+  {
+    "name": "Acuity Brands",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example3@gmail.com",
+    "mobile": "4700716731"
+  },
+  {
+    "name": "BlueLinx",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example4@gmail.com",
+    "mobile": "4700395908"
+  },
+  {
+    "name": "Boeing",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example5@gmail.com",
+    "mobile": "7060662793"
+  },
+  {
+    "name": "EarthLink",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example6@gmail.com",
+    "mobile": "4703418948"
+  },
+  {
+    "name": "Robotics",
+    "type": "Club",
+    "resources": "Events",
+    "email": "example7@gmail.com",
+    "mobile": "4046174814"
+  },
+  {
+    "name": "Lockheed Martin",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example8@gmail.com",
+    "mobile": "4046116854"
+  },
+  {
+    "name": "Greenwood",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example9@gmail.com",
+    "mobile": "4709519025"
+  },
+  {
+    "name": "NextStep Atlanta",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example10@gmail.com",
+    "mobile": "7063244940"
+  },
+  {
+    "name": "Havertys",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example11@gmail.com",
+    "mobile": "4046640567"
+  },
+  {
+    "name": "LexisNexis",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example12@gmail.com",
+    "mobile": "4700812472"
+  },
+  {
+    "name": "LendingPoint",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example13@gmail.com",
+    "mobile": "4049978373"
+  },
+  {
+    "name": "Hack club",
+    "type": "Club",
+    "resources": "Hackathons",
+    "email": "example14@gmail.com",
+    "mobile": "4703277827"
+  },
+  {
+    "name": "NanoLumens",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example15@gmail.com",
+    "mobile": "4706904295"
+  },
+  {
+    "name": "Meals On Wheels",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example16@gmail.com",
+    "mobile": "4709242398"
+  },
+  {
+    "name": "Oxford Industries",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example17@gmail.com",
+    "mobile": "4701143609"
+  },
+  {
+    "name": "Spanx",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example18@gmail.com",
+    "mobile": "4707660046"
+  },
+  {
+    "name": "Meals By Grace",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example19@gmail.com",
+    "mobile": "4043586587"
+  },
+  {
+    "name": "Synovus",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example20@gmail.com",
+    "mobile": "7061950485"
+  },
+  {
+    "name": "Rocketry",
+    "type": "Club",
+    "resources": "Experience",
+    "email": "example21@gmail.com",
+    "mobile": "7061571522"
+  },
+  {
+    "name": "Feeding America",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example22@gmail.com",
+    "mobile": "4046829216"
+  },
+  {
+    "name": "TSYS",
+    "type": "Company",
+    "resources": "Jobs",
+    "email": "example23@gmail.com",
+    "mobile": "4709193455"
+  },
+  {
+    "name": "Habitat For Humanity",
+    "type": "Nonprofit",
+    "resources": "Volunteering",
+    "email": "example24@gmail.com",
+    "mobile": "7066751941"
+  }
+]
